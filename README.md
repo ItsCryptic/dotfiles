@@ -12,3 +12,5 @@ That will need to be placed in ~/.config/neofetch/
 ## Fish Config
 
 The fish config relies on [Starship](https://starship.rs/). Please install it before attempting to use that config file.
+
+Most of my configs use the [Dracula](https://draculatheme.com/) color scheme. Please check them out!
