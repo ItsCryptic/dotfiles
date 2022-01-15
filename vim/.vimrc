@@ -36,9 +36,9 @@ set nobackup
 set nowrap
 " Search through a file incrementally highlight matching charcters as you type
 set incsearch
-" Ignore capital letters during search
+
 set smartcase
-" Show partial commadn you typed in the last line of the screen
+" Show partial command you typed in the last line of the screen
 set showcmd
 " Show the mode you are on the last line
 set showmode
