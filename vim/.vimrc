@@ -4,6 +4,7 @@
 "
     Plug 'dense-analysis/ale'
     Plug 'preservim/nerdtree'
+    Plug 'vim-airline/vim-airline'
 "
 "
 call plug#end()
