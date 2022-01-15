@@ -5,6 +5,7 @@
     Plug 'dense-analysis/ale'
     Plug 'preservim/nerdtree'
     Plug 'vim-airline/vim-airline'
+    Plug 'vim-arline/vim-airline-themes'
 "
 "
 call plug#end()
@@ -23,6 +24,8 @@ filetype indent on
 syntax on
 " Add line numbers
 set number
+" Set theme of airline
+let g:airline_theme='dracula'
 
 
 " Set shift width to 4 spaces.
