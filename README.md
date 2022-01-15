@@ -16,6 +16,6 @@ The fish config relies on [Starship](https://starship.rs/). Please install it be
 ## Vim Config
 
 Run ```mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/color ~/.vim/plugged``` in your terminal then run ```curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-          https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim``` which will give you my plugin manager. Then you can run ```:source .vimrc``` then run ```:PlugInstall``` within vim
+          https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim``` which will give you my plugin manager. Then you can run ```:source .vimrc``` then run ```:PlugInstall``` within vim, which will install my plugins. You'll then want to follow the steps for the [Dracula](https://draculatheme.com/) color scheme for vim, and do what it says. Now you're done!
 
 Most of my configs use the [Dracula](https://draculatheme.com/) color scheme. Please check them out!
