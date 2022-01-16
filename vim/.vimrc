@@ -6,6 +6,7 @@
     Plug 'preservim/nerdtree'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-arline/vim-airline-themes'
+    Plug 'dracula/vim'
 "
 "
 call plug#end()
