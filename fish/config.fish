@@ -4,6 +4,7 @@ end
 
 alias "vim"="nvim"
 alias ".."="cd .."
+alias "lsblk"="lsblk -e 7"
 
 function fish_greeting
   figlet -w 100 kevind.me 
