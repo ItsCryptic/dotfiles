@@ -22,4 +22,8 @@ Run ```mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/color ~/.vim/plugged
 
 To use my config with neovim, just create a symlink from .vimrc to init.vim with ```sudo ln -s ~/.vimrc ~/.config/nvim/init.vim``` and copy plugged from vim to neovim with ```cp ~/.vim/autoload/plug.vim ~/.local/share/nvim/site/autoload/plug.vim``` and you should be good to go!
 
+# Zsh
+
+This is my zshrc. It uses oh-my-zsh for plugin management.
+
 Most of my configs use the [Dracula](https://draculatheme.com/) color scheme. Please check them out!
