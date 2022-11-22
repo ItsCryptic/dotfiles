@@ -24,6 +24,6 @@ To use my config with neovim, just create a symlink from .vimrc to init.vim with
 
 # Zsh
 
-This is my zshrc. It uses oh-my-zsh for plugin management.
+This is my zshrc. It uses oh-my-zsh for plugin management. It also uses the [Starship](https://starship.rs/) prompt and [Welcome.sh](https://github.com/G2-Games/welcome.sh)
 
 Most of my configs use the [Dracula](https://draculatheme.com/) color scheme. Please check them out!
