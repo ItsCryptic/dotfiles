@@ -6,6 +6,7 @@ plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "MAHcodes/distro-prompt"
 plug "zap-zsh/sudo"
+plug "zsh-users/zsh-history-substring-search"
 
 alias vim=nvim
 
