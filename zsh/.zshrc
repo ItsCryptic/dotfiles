@@ -9,6 +9,7 @@ plug "zap-zsh/sudo"
 plug "zsh-users/zsh-history-substring-search"
 
 alias vim=nvim
+alias neofetch=fastfetch
 
 export PATH="$PATH:/home/kevin/.local/bin"
 export player="spotify"
