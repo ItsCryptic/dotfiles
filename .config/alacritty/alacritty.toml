@@ -1,0 +1,30 @@
+import = ["~/.config/alacritty/catppuccin-frappe.toml"]
+live_config_reload = true
+
+[cursor]
+blink_interval = 750
+vi_mode_style = "Block"
+
+[cursor.style]
+blinking = "On"
+shape = "Underline"
+
+[window]
+opacity = 0.99
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12.0
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Right"
+
+[selection]
+save_to_clipboard = true
+	
