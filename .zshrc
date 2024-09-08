@@ -8,11 +8,11 @@ plug "MAHcodes/distro-prompt"
 plug "zap-zsh/sudo"
 plug "zsh-users/zsh-history-substring-search"
 
-alias lsblk=lsblk -e 7
-alias ..=cd ..
+alias lsblk="lsblk -e 7"
 alias vim=nvim
 alias neofetch=fastfetch
 alias cd=z
+alias ls="eza -l --icons --git -a"
 
 export PATH="$PATH:/home/kevin/.local/bin"
 export player="spotify"
@@ -24,6 +24,4 @@ export NVM_DIR="$HOME/.nvm"
 # Load and initialise completion system
 autoload -Uz compinit
 compinit
-# I use zoxide instead of the normal GNU command :) https://github.com/ajeetdsouza/zoxide
 eval "$(zoxide init zsh)"
-
