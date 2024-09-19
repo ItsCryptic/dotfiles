@@ -1,4 +1,4 @@
-# configs
+# dotfiles
 
 ## Alacritty
 
