@@ -26,4 +26,4 @@ To use my config with neovim, just create a symlink from .vimrc to init.vim with
 
 It uses [Zapped](https://www.zapzsh.com/) for plugin management.
 
-Most of my configs use the [Dracula](https://draculatheme.com/) color scheme. Please check them out!
+Most of my configs use the [Catppuccin](https://github.com/catppuccin) color scheme. Please check them out!
