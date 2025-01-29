@@ -11,6 +11,8 @@ shape = "Underline"
 
 [window]
 opacity = 0.99
+# New as of alacritty 0.15
+level = "AlwaysOnTop"
 
 [env]
 TERM = "xterm-256color"
