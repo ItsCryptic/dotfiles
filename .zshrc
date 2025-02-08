@@ -7,6 +7,7 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "MAHcodes/distro-prompt"
 plug "zap-zsh/sudo"
 plug "zsh-users/zsh-history-substring-search"
+plug "hlissner/zsh-autopair"
 
 alias lsblk="lsblk -e 7"
 alias vim=nvim
