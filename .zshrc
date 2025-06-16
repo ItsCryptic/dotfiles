@@ -7,13 +7,8 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "MAHcodes/distro-prompt"
 plug "zap-zsh/sudo"
 plug "zsh-users/zsh-history-substring-search"
-plug "hlissner/zsh-autopair"
 
-alias lsblk="lsblk -e 7"
 alias vim=nvim
-alias neofetch=fastfetch
-alias cd=z
-alias ls="eza -l --icons --git -a"
 
 export PATH="$PATH:/home/kevin/.local/bin"
 export player="spotify"
@@ -25,4 +20,3 @@ export NVM_DIR="$HOME/.nvm"
 # Load and initialise completion system
 autoload -Uz compinit
 compinit
-eval "$(zoxide init zsh)"
