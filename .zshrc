@@ -26,6 +26,8 @@ bindkey '^w' pop-input
 
 export PATH="$PATH:/home/kevin/.local/bin"
 export player="spotify"
+export SSH_AUTH_SOCK=/home/kevin/.var/app/com.bitwarden.desktop/data/.bitwarden-ssh-agent.sock
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
